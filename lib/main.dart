@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
           // onSurface: pfblanco, // COLOR APPBAR BOTON NAVEGACION
         )
       ),
-      home: const Principal(),
+      home: const LoadingPage(),
     );
   }
 }
