@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:playftubolweb/Utils/utils.dart';
 
 class LoadingPage extends StatefulWidget {
-  const LoadingPage({super.key});
+  const LoadingPage({Key? key}) : super(key: key);
 
   @override
   State<LoadingPage> createState() => _LoadingPageState();

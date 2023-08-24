@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:playftubolweb/Utils/utils.dart';
 
 class Principal extends StatefulWidget {
-  const Principal({super.key});
+  const Principal({Key? key}) : super(key: key);
 
   @override
   State<Principal> createState() => _PrincipalState();
